@@ -1,0 +1,31 @@
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\tensorvn\backend\Assignment\myenv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Request: GET http://127.0.0.1:8000/docs
+INFO:root:Response: 200
+INFO:root:Request: GET http://127.0.0.1:8000/openapi.json
+INFO:root:Response: 200
+INFO:root:Request: POST http://127.0.0.1:8000/signin
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\tensorvn\backend\Assignment\myenv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:root:Response: 200
+INFO:root:Request: GET http://127.0.0.1:8000/users/1
+INFO:root:Response: 200
+INFO:root:Request: POST http://127.0.0.1:8000/products/
+INFO:root:Response: 200
+INFO:root:Request: POST http://127.0.0.1:8000/update_stock_quantity/2/140
+INFO:root:Response: 200
+INFO:root:Request: GET http://127.0.0.1:8000/products/2
+INFO:root:Response: 200
+INFO:root:Request: POST http://127.0.0.1:8000/orders/
+INFO:root:Request: POST http://127.0.0.1:8000/orders/
+INFO:root:Response: 200
+INFO:root:Request: PUT http://127.0.0.1:8000/payments/15
+INFO:root:Response: 200
